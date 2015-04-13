@@ -1,12 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>dz 4</title>
+	<title>Главная</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 <body>
-	<h1>Здесь будет первая домашка</h1>
+	<div class="wrapper">
+		<header class="page-header">
+			<div class="header-container">
+				<a href="/" class="header-logo">
+					<img src="/img/logo.gif" alt="logo" class="logo-img">
+					<span class="header-logo-text">Сайт-портфолио</span>
+				</a>
+				<!-- Соцсети -->
+				<ul class="socials-list">
+					<li class="socials-item">
+						<a href="http://vk.com/id138654458" targer="_blank" class= "socials-vk">ВКонтакте</a>
+					</li>
+					<li class="social-item">
+						<a href="/" class="socials-tw">Twitter</a>
+					</li>
+					<li class="socials-item">
+						<a href="https://www.facebook.com/ksenia.kucherova.1/" target="_blank" class="socials-fb">Facebook</a>
+					</li>
+					<li class="social-item">
+						<a href="https://github.com/ksulapik/" target="_blank" class="socials-git">Github</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+	</div>
+	<!-- Основное содержание-->
+	<div class="main-container">
+		<aside class="fixed-content">
+			<nav class="menu">
+				<ul class="navigation-list">
+					<li class="navigation-item">
+						<a href="/">Обо мне</a>
+					</li>
+					<li class="navigation-item">
+						<a href="/">Мои работы</a>
+					</li>
+					<li class="navigation-item">
+						<a href="/">Связаться со мной</a>
+					</li>
+				</ul>
+			</nav>
+			<address class="contacts">
+				<div class="contacts-header">Контакты</div>
+				<ul class="contacts-list">
+					<li class="contacts-item icon-mail">
+						<a href="mailto:ksulapik@yandex.ru" class="contacts-link mail-link">ksulapik@yandex.ru</a>
+					</li>
+					<li class="contacts-item icon-phone">
+						<a href="tel:+79260000000" class="contacts-link phone-link">+79260000000</a>
+					</li>
+					<li class="contacts-item icon-skype">
+						<a href="skype:ksulapik?chat76" class="contacts-item skype-link">ksulapik</a>
+					</li>
+				</ul>
+			</address>
+		</aside>
+		<div class="variable-content">
+			<section class="profile">
+				<div class="profile-header">Основная информация</div>
+				<div class="profile-body"></div>
+					<div class="avatar-wrapper">
+						<img src="img/photo.jpg" alt="Ксения Кучерова" class="avatar">
+					</div>
+				<div class="characteristics">
+					<ul class="characteristics-list">
+						<li class="characteristics-item">
+							<div class="characteristics-property">Меня зовут</div>
+							<div class="characteristics-value">Ксения Кучерова</div>
+						</li>
+						<li class="characteristics-item">
+							<div class="characteristics-property">Мой возраст</div>
+							<div class="characteristics-value">27 лет</div>
+						</li>
+						<li class="characteristics-item">
+							<div class="characteristics-property">Мой город</div>
+							<div class="characteristics-value">Москва</div>
+						</li>
+						<li class="characteristics-item">
+							<div class="characteristics-property">Моя специализация</div>
+							<div class="characteristics-value">Frontend-разработчик</div>
+						</li>
+						<li class="characteristics-item">
+							<div class="characteristics-property">Ключевые навыки</div>
+							<div class="characteristics-value skills">
+								<ul class="skills-list">
+									<li class="skills-item">html</li>
+									<li class="skills-item">css</li>
+									<li class="skills-item">javascript</li>
+									<li class="skills-item">gulp</li>
+									<li class="skills-item">git</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					
+				</div>
+			</section>
+			<!-- Опыт работы -->
+			<section class="profile">
+				<div class="profile-header">Опыт работы</div>
+				<div class="profile-body"></div>
+					<ul class="profile-list">
+						<li class="profile-item icon-work">
+							<div class="place">ООО "ИТГ Консалтинг" - Администратор проектов</div>
+							<div class="period">Октябрь 2013 - июль 2014</div>
+						</li>
+						<li class="profile-item icon-work">
+							<div class="place">Департамент ИТ Правительства Москвы - Администратор проектов</div>
+							<div class="period">Апрель 2015 - по настоящее время</div>
+						</li>
+				</ul>
+			<!-- Образование -->
+			</section>
+			<section class="profile">
+				<div class="profile-header">Образование</div>
+				<div class="profile-body"></div>
+					<ul class="profile-list">
+						<li class="profile-item icon-edu">
+							<div class="place">Высшее. РГГУ</div>
+							<div class="period">2007 - 2011</div>
+						</li>
+						<li class="profile-item icon-course">
+							<div class="place">Курсы Loftschool</div>
+							<div class="period">2015</div>
+						</li>
+					</ul>
+			</section>
+		</div>
+	</div>
+	<footer class="page-footer"></footer>
+		<img src="/img/lock.gif" alt="lock" class="lock-img"> <!-- Пока не знаю для чего этот знак замочка он будет просто как картинка =) --> 
+		<div class="copyright">&copy 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</div>
+	<script src="bower/jquery/dist/jquery.js"></script>
 	<script src="js/main.js"></script>
+
 </body>
 </html>
