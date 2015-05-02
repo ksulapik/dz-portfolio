@@ -11,7 +11,6 @@
 	margin: 0;
 	list-style: none;
 	border-radius: 5px;
-	-webkit-border-radius: 5px;
 	overflow: hidden;
 	background-color: #EFF3F7;
 	margin-bottom: 21px;	
@@ -104,6 +103,7 @@
 	clear: right;
 	background-color: #EFF3F7;
 	margin-bottom: 31px;
+	border-radius: 3px;
 }
 .profile-list{
 	padding: 0;
@@ -167,7 +167,6 @@ background: -o-linear-gradient(rgba(59,168,192,0.28) 0%, rgba(59,168,192,0.91) 6
 background: linear-gradient(rgba(59,168,192,0.28) 0%, rgba(59,168,192,0.91) 6%, rgba(59,168,192,1) 11%, rgba(59,168,192,1) 44%, rgba(58,165,189,1) 50%, rgba(46,140,162,1) 56%, rgba(46,140,162,1) 89%, rgba(46,140,162,0.91) 94%, rgba(46,140,162,0.29) 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473ba8c0', endColorstr='#4a2e8ca2',GradientType=0 ); /* IE6-9 */
 }
-
 .profile-item.icon-work{
 	padding-left: 75px;
 	background: url(/img/work.png) 10px center no-repeat;
@@ -195,12 +194,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473ba8c0', e
 	color: #4a545d;
 	line-height: 100%;
 }
-
-
-
-
-
-
 .clearfix:after{
 	visibility: hidden;
 	content: " ";
