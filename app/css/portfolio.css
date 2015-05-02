@@ -151,6 +151,7 @@
 	margin-bottom: 5px;
 	display: inline-block;
 	position: relative;
+	cursor: url(/img/cursor.png), pointer;
 }
 .addproject{
 	width: 100%;
@@ -159,6 +160,107 @@
 	font-size: 13px;
 	position: absolute;
 	top: 75px;
+}
+/*модальное окно*/
+
+.add-pro{
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(126,140,153,0.5);
+}
+.add-pro:after {
+    display: inline-block;
+    width:  0;
+    height: 100%;
+    vertical-align: middle;
+    content: " ";
+    } 
+.add-project-content{
+	width: 360px;
+	border-radius: 5px 5px;
+	overflow: hidden;
+	background-color: #eff3f7; 
+	margin: auto;
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	z-index: 8;
+	display: inline-block;
+	vertical-align: middle;
+}
+.add-project-title-wrapper{
+	background: #48cbe8;
+	border-bottom: 9px solid #67dffa;
+	padding: 10px;
+}
+.add-project-title{
+	float: left;
+	color: #ffffff;
+	font-family: 'fira_sansregular';
+	font-size: 25px;
+	line-height: 100%;
+}
+#add-project-closebutton{
+	height: 25px;
+	width: 25px;
+	background: url(/img/close.png) no-repeat;
+	float: right;
+	cursor: url(/img/cursor.png), pointer;
+}
+.add-project-form-wrapper{
+	padding: 10px 20px 20px;	
+}
+.formelement{
+	width: 100%;
+	margin-bottom: 5px;
+	position: relative;
+}
+.fieldname{
+	display: block;
+	width: 100%;
+	font-family: 'fira_sansbook';
+	font-size: 17px;
+}
+.fieldcontent{
+	width: 94%;
+	border-radius: 5px;
+	border: 1px solid #48cbe8;
+	font-family: 'fira_sanslight';
+	font-size: 13px;
+	color: #48cbe8;
+	padding: 9px 9px;
+	position: relative;
+}
+.fieldcontent::-webkit-input-placeholder{color:#48cbe8;}
+.fieldcontent::-moz-placeholder         {color:#48cbe8;}
+.fieldcontent:-moz-placeholder          {color:#48cbe8;}
+.fieldcontent:-ms-input-placeholder     {color:#48cbe8;}
+.upload{
+	width: 52px;
+	height: 40px;
+	position: absolute;
+	background: #48cbe8 url(/img/upload.png) 50% 50% no-repeat;
+	border-radius: 0 5px 5px 0;
+	bottom: 0;
+	right: 0;
+	cursor: url(/img/cursor.png), pointer;
+}
+.add-project-submit{
+	background: #48cbe8;
+	color: #ffffff;
+	font-family: 'fira_sansbook';
+	font-size: 19px;
+	border-radius: 5px;
+	padding: 2px 25px;
+	border: none;
+	border-bottom: 2px solid #3ba8c0;
+	margin: 0 auto;
+	display: block;
+	cursor: url(/img/cursor.png), pointer;
 }
 .clearfix:after{
 	visibility: hidden;

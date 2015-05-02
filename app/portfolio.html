@@ -114,9 +114,9 @@
 									<div class="project-description">Инфо о проекте</div>
 								</li>
 								<li class="project-item">
-									<a href="popup.html" class="add">
+									<span class="add" id="add">
 										<div class="addproject">Добавить проект</div>
-									</a>	
+									</span>	
 								</li>
 							</ul>
 						</div>
@@ -131,6 +131,37 @@
 				<span class="copyright">&copy 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</span>
 		</div>
 	</footer>
+	<!--Модальное окно-->
+	<div class="add-pro" id="modal">
+		<div class="add-project-content">
+			<div class="add-project-title-wrapper clearfix">
+				<div class="add-project-title">Добавление проекта</div>
+				<div id="add-project-closebutton"></div>
+			</div>
+			<div class="add-project-form-wrapper">
+				<form id="add-project-form" action="/" method="get">
+					<div class="add-project formelement">
+						<label for="add-project-name" class="fieldname">Название проекта</label>
+						<input type="text" id="add-project-name" placeholder="Введите название" class="fieldcontent">
+					</div>
+					<div class="add-project formelement">
+						<label for="add-project-image" class="fieldname">Картинка проекта</label>
+						<input type="text" id="add-project-image" placeholder="Загрузите изображение" class="fieldcontent">
+						<div id="add-project-upload" class="upload"></div>
+					</div>
+					<div class="add-project formelement">
+						<label for="add-project-url" class="fieldname">URL проекта</label>
+						<input type="text" id="add-project-url" placeholder="Добавьте ссылку" class="fieldcontent">
+					</div>
+					<div class="add-project formelement">
+						<label for="add-project-descr" class="fieldname">Описание</label>
+						<textarea id="add-project-descr" rows="5" placeholder="Пара слов о вашем проекте" class="fieldcontent"></textarea>
+					</div>
+					<button class="add-project-submit" type="submit">Добавить</button>
+				</form>
+			</div>
+		</div>
+	</div>
 	<script src="bower/jquery/dist/jquery.js"></script>
 	<script src="js/main.js"></script>
 </body>
