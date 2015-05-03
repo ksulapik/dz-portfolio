@@ -34,10 +34,11 @@
 	color: #959AA8;
 	padding: 19px 21px;
 	font-size: 21px;
+	cursor: url(/img/cursor.png), pointer;
 }
 .navigation-item.current a{
 	color: #FFFFFF !important;
-	font-size: 23px;
+	font-size: 22px;
 }
 .navigation-item a:hover{
 	color: #3BA8C0;
@@ -68,6 +69,7 @@
 	display: block;
 	padding-top: 6px;
 	font-size: 17px;
+	cursor: url(/img/cursor.png), pointer;
 }
 .contacts-item .contacts-link:hover{
 	text-decoration: underline;
@@ -126,6 +128,7 @@
 	border-radius: 4% 4%;
 	overflow: hidden;
 	margin-bottom: 5px;
+	cursor: url(/img/cursor.png), pointer;
 }
 .project-url{
 	display: inline-block;
@@ -171,6 +174,9 @@
     height: 100%;
     z-index: 10;
     background-color: rgba(126,140,153,0.5);
+}
+#modal{
+	display: none;
 }
 .add-pro:after {
     display: inline-block;
@@ -219,6 +225,9 @@
 	margin-bottom: 5px;
 	position: relative;
 }
+.formelement:last-child{
+	margin-bottom: 10px;
+}
 .fieldname{
 	display: block;
 	width: 100%;
@@ -261,6 +270,7 @@
 	margin: 0 auto;
 	display: block;
 	cursor: url(/img/cursor.png), pointer;
+
 }
 .clearfix:after{
 	visibility: hidden;

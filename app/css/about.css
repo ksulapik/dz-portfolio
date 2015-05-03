@@ -35,10 +35,11 @@
 	color: #959AA8;
 	padding: 19px 21px;
 	font-size: 21px;
+	cursor: url(/img/cursor.png), pointer;
 }
 .navigation-item.current a{
 	color: #FFFFFF !important;
-	font-size: 23px;
+	font-size: 22px;
 }
 .navigation-item a:hover{
 	color: #3BA8C0;
@@ -69,6 +70,7 @@
 	display: block;
 	padding-top: 6px;
 	font-size: 17px;
+	cursor: url(/img/cursor.png), pointer;
 }
 .contacts-item .contacts-link:hover{
 	text-decoration: underline;

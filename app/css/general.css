@@ -11,7 +11,6 @@ body{
 	padding: 0;
 	margin: 0 auto;
 	position: relative;
-	cursor: url(/img/cursor.png);
 }
 .page-header{
 	background: #EFF3F7 url(/img/gradient-line.jpg) bottom center no-repeat;
@@ -30,6 +29,7 @@ body{
 .header-logo-link{
 	position: absolute;
 	top: 39px;
+	cursor: url(/img/cursor.png), pointer;
 }
 .header-logo-text{
 	position: absolute;
@@ -59,6 +59,7 @@ body{
 	height: 100%;
 	width: 100%;
 	background: url(/img/socials.png) no-repeat;
+	cursor: url(/img/cursor.png), pointer;
 }
 .socials-link.vk{background-position: -10px -10px;}
 .socials-link.vk:hover{background-position: -77px -10px;}
@@ -100,9 +101,11 @@ body{
 	left: 30px;
 	top: 20px;
 	text-indent: -9999px;
+	cursor: url(/img/cursor.png), pointer;
 }
 .login:hover{
 	background: url(/img/lock-opened.png) left no-repeat;
+	cursor: url(/img/cursor.png), pointer;
 }
 .copyright{
 	font-family: 'fira_sanslight';
@@ -114,7 +117,7 @@ body{
 	position: absolute;
 	top: 0; left: 0; bottom: 0; right: 0;
 	vertical-align: middle;
-	padding-top: 25px;
+	padding-top: 35px;
 }
 .clearfix:after{
 	visibility: hidden;

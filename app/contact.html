@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<title>Мои работы</title>
+	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
+	<link rel="stylesheet" href="fonts/fira/fira.css">
+	<link rel="stylesheet" href="fonts/ProximaNova/proximanovacond-semibold.css">
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+	<!--[if It IE 7]>
+	<p class="browserhappy">Ваш браузер устарел. Пожалуйста <a href="http://browserhappy.com/">обновите</a>его.</p>
+	<![endif]-->
+	<div class="page-wrapper">
+			<header class="page-header">
+				<div class="header-container">
+					<a href="index.html" class="header-logo-link">
+						<img src="/img/logo.png" alt="logo" class="logo-img">
+						<span class="header-logo-text">Сайт-портфолио</span>
+					</a>
+					<!-- Соцсети -->
+					<ul class="socials-list">
+						<li class="socials-item">
+							<a href="http://vk.com/id138654458" targer="_blank" class= "socials-link vk">ВКонтакте</a>
+						</li>
+						<li class="socials-item">
+							<a href="/" class="socials-link tw">Twitter</a>
+						</li>
+						<li class="socials-item">
+							<a href="https://www.facebook.com/ksenia.kucherova.1/" target="_blank" class="socials-link fb">Facebook</a>
+						</li>
+						<li class="socials-item">
+							<a href="https://github.com/ksulapik/" target="_blank" class="socials-link git">Github</a>
+						</li>
+					</ul>
+				</div>
+			</header>
+			<!-- Основное содержание-->
+			<div class="main-container clearfix">
+				<aside class="fixed-content">
+					<nav class="menu">
+						<ul class="navigation-list">
+							<li class="navigation-item">
+								<a href="index.html" class="navigation-link">Обо мне</a>
+							</li>
+							<li class="navigation-item">
+								<a href="portfolio.html" class="navigation-link">Мои работы</a>
+							</li>
+							<li class="navigation-item current">
+								<a href="contact.html" class="navigation-link">Связаться со мной</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- Контакты-->
+					<div class="contacts">
+						<div class="contacts-header">Контакты</div>
+						<ul class="contacts-list">
+							<li class="contacts-item icon-mail">
+								<a href="mailto:ksulapik@yandex.ru" class="contacts-link mail-link">ksulapik@yandex.ru</a>
+							</li>
+							<li class="contacts-item icon-phone">
+								<a href="tel:+79260000000" class="contacts-link phone-link">+79260000000</a>
+							</li>
+							<li class="contacts-item icon-skype">
+								<a href="skype:ksulapik?chat" class="contacts-link skype-link">ksulapik</a>
+							</li>
+						</ul>
+					</div>
+				</aside>
+				<!--Форма-->
+				<div class="variable-content">
+					<section class="feedback">
+						<div class="feedback-header">У вас интересный проект? Напишите мне</div>
+							<div class="feedback-form-wrapper clearfix">
+								<form action="/" id="feedback-form" class="feedback-form">
+									<div class="feedback-item username">
+										<label for="feedback-name" class="fieldname">Имя</label>
+										<input type="text" id="feedback-name" placeholder="Как к вам обращаться" class="fieldcontent">
+									</div>
+									<div class="feedback-item usermail">
+										<label for="feedback-email" class="fieldname">E-mail</label>
+										<input type="text" id="feedback-email" placeholder="Куда мне писать" class="fieldcontent">
+									</div>
+									<div class="feedback-item usermessage">
+										<label for="feedback-message" class="fieldname">Сообщение</label>
+										<textarea type="text" id="feedback-message" rows="8" placeholder="Кратко в чем суть" class="fieldcontent"></textarea>
+									</div>
+									<div class="feedback-item captcha">
+										<label for="feedback-captcha" class="fieldname">Подтвердите пожалуйста, что вы не робот</label>
+										<div class="g-recaptcha" data-sitekey="6LdJQgYTAAAAABNjxavO87uhLw751cqgDctfwc2r"></div>
+									</div>
+									<button class="feedback-form-submit button" type="submit">Отправить</button>
+									<button class="feedback-form-reset button" type="reset">Очистить</button>
+								</form>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+	</div>
+			<!--Футер-->
+	<footer class="page-footer">
+		<div class="footer-wrapper">
+			<a href="login.html" class="login">Войти</a>
+				<span class="copyright">&copy 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</span>
+		</div>
+	</footer>
+	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
