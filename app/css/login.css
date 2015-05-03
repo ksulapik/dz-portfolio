@@ -1,0 +1,68 @@
+.auth-section{
+	width: 590px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #eff3f7;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: 485px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.auth-header{
+	width: 100%;
+	height: 92px;
+	background: #48cbe8;
+	border-bottom: 14px solid #67dffa;
+	font-family: 'fira_sansbook';
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 92px;
+	margin-bottom: 17px;
+}
+.auth-form-wrapper{
+	width: 425px;
+	margin: 0 auto;
+	padding-bottom: 22px;
+}
+.auth-form-item{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.fieldname{
+	display: block;
+	width: 100%;
+	font-family: 'fira_sanslight';
+	font-size: 36px;
+	text-align: center;
+}
+.fieldcontent{
+	width: 388px;
+	border-radius: 5px;
+	border: 1px solid #48cbe8;
+	font-family: 'fira_sanslight';
+	font-size: 17px;
+	color: #48cbe8;
+	padding: 16px 18px;
+	position: relative;
+}
+.fieldcontent::-webkit-input-placeholder{color:#48cbe8;}
+.fieldcontent::-moz-placeholder         {color:#48cbe8;}
+.fieldcontent:-moz-placeholder          {color:#48cbe8;}
+.fieldcontent:-ms-input-placeholder     {color:#48cbe8;}
+.button{
+	width: 224px;
+	background: #48cbe8;
+	color: #ffffff;
+	font-family: 'fira_sansbook';
+	font-size: 36px;
+	border-radius: 5px;
+	border: none;
+	border-bottom: 4px solid #3ba8c0;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: block;
+	vertical-align: middle;
+	cursor: url(/img/cursor.png), pointer;
+}

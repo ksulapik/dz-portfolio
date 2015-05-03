@@ -193,7 +193,7 @@
 	margin: auto;
 	position: absolute;
 	left: 40%;
-	top: 30%;
+	top: 20%;
 	z-index: 8;
 	display: inline-block;
 	vertical-align: middle;
@@ -270,7 +270,11 @@
 	margin: 0 auto;
 	display: block;
 	cursor: url(/img/cursor.png), pointer;
+}
 
+.save-me-wrapper{
+	min-height: inherit;
+	
 }
 .clearfix:after{
 	visibility: hidden;

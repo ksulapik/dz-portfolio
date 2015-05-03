@@ -186,13 +186,6 @@
 	border-bottom: 2px solid #7b92a8;
 	float: right;
 }
-
-
-
-
-
-
-
 .clearfix:after{
 	visibility: hidden;
 	content: " ";

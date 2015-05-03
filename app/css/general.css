@@ -72,9 +72,11 @@ body{
 .page-wrapper{
 	position: relative;
 	min-height: 100%;
+	height: auto!important;
+	overflow: hidden;
 }
 .page-wrapper:after{
-	content: " ";
+	content: "";
 	height: 80px;
 	display: block;
 }
