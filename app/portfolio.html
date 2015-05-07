@@ -10,9 +10,10 @@
 	<link rel="stylesheet" href="css/general.css">
 	<link rel="stylesheet" href="css/portfolio.css">
 	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+	<script src="bower/modernizr/modernizr.js"></script> 
 </head>
 <body>
-	<!--[if It IE 7]>
+	<!--[if lt IE 7]>
 	<p class="browserhappy">Ваш браузер устарел. Пожалуйста <a href="http://browserhappy.com/">обновите</a>его.</p>
 	<![endif]-->
 	<div class="page-wrapper">
@@ -128,7 +129,7 @@
 	<footer class="page-footer">
 		<div class="footer-wrapper">
 			<a href="login.html" class="login">Войти</a>
-				<span class="copyright">&copy 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</span>
+				<span class="copyright">&copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</span>
 		</div>
 	</footer>
 	<!--Модальное окно-->
@@ -140,14 +141,21 @@
 			</div>
 			<div class="add-project-form-wrapper">
 				<form id="add-project-form" action="/" method="get" class="add-project-form">
+					<div class="server-response error"></div>
+                    <div class="server-response success"></div>
 					<div class="add-project formelement">
 						<label for="add-project-name" class="fieldname">Название проекта</label>
 						<input type="text" id="add-project-name" placeholder="Введите название" class="fieldcontent">
 					</div>
 					<div class="add-project formelement">
-						<label for="add-project-image" class="fieldname">Картинка проекта</label>
-						<input type="text" id="add-project-image" placeholder="Загрузите изображение" class="fieldcontent">
-						<div id="add-project-upload" class="upload"></div>
+						<div class="upload-wrapper" id="upload-wrapper">
+			            <span class="fieldname">Картинка проекта</span>
+			            <label class="upload-label">
+			              	<input id="upload" class="upload" type="file" name="files[]">
+			             	<input id="upload-url" type="hidden" name="url">
+			            </label>
+			            <input id="upload-field" type="text" class="fieldcontent" name="upload-field" placeholder="Загрузите изображение">
+			            </div>
 					</div>
 					<div class="add-project formelement">
 						<label for="add-project-url" class="fieldname">URL проекта</label>

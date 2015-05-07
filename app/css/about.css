@@ -29,6 +29,9 @@
 .navigation-item:last-child{
 	border: none;
 }
+.nav-last{
+	border: none;
+}
 .navigation-item a{
 	display: block;
 	text-decoration: none;

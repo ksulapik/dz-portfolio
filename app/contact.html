@@ -11,9 +11,10 @@
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script src="bower/modernizr/modernizr.js"></script>
 </head>
 <body>
-	<!--[if It IE 7]>
+	<!--[if lt IE 7]>
 	<p class="browserhappy">Ваш браузер устарел. Пожалуйста <a href="http://browserhappy.com/">обновите</a>его.</p>
 	<![endif]-->
 	<div class="page-wrapper">
@@ -76,28 +77,27 @@
 				<div class="variable-content">
 					<section class="feedback">
 						<div class="feedback-header">У вас интересный проект? Напишите мне</div>
-							<div class="feedback-form-wrapper clearfix">
-								<form action="/" id="feedback-form" class="feedback-form">
-									<div class="feedback-item username">
-										<label for="feedback-name" class="fieldname">Имя</label>
-										<input type="text" id="feedback-name" placeholder="Как к вам обращаться" class="fieldcontent">
-									</div>
-									<div class="feedback-item usermail">
-										<label for="feedback-email" class="fieldname">E-mail</label>
-										<input type="text" id="feedback-email" placeholder="Куда мне писать" class="fieldcontent">
-									</div>
-									<div class="feedback-item usermessage">
-										<label for="feedback-message" class="fieldname">Сообщение</label>
-										<textarea type="text" id="feedback-message" rows="8" placeholder="Кратко в чем суть" class="fieldcontent"></textarea>
-									</div>
-									<div class="feedback-item captcha">
-										<label for="feedback-captcha" class="fieldname">Подтвердите пожалуйста, что вы не робот</label>
-										<div class="g-recaptcha" data-sitekey="6LdJQgYTAAAAABNjxavO87uhLw751cqgDctfwc2r"></div>
-									</div>
-									<button class="feedback-form-submit button" type="submit">Отправить</button>
-									<button class="feedback-form-reset button" type="reset">Очистить</button>
-								</form>
-							</div>
+						<div class="feedback-form-wrapper clearfix">
+							<form action="/" id="feedback-form" class="feedback-form">
+								<div class="feedback-item username">
+									<label for="feedback-name" class="fieldname">Имя</label>
+									<input type="text" id="feedback-name" placeholder="Как к вам обращаться" class="fieldcontent">
+								</div>
+								<div class="feedback-item usermail">
+									<label for="feedback-email" class="fieldname">E-mail</label>
+									<input type="text" id="feedback-email" placeholder="Куда мне писать" class="fieldcontent">
+								</div>
+								<div class="feedback-item usermessage">
+									<label for="feedback-message" class="fieldname">Сообщение</label>
+									<textarea type="text" id="feedback-message" rows="8" placeholder="Кратко в чем суть" class="fieldcontent"></textarea>
+								</div>
+								<div class="feedback-item captcha">
+									<label for="feedback-captcha" class="fieldname">Подтвердите пожалуйста, что вы не робот</label>
+									<div class="g-recaptcha" data-sitekey="6LdJQgYTAAAAABNjxavO87uhLw751cqgDctfwc2r"></div>
+								</div>
+								<button class="feedback-form-submit button" type="submit">Отправить</button>
+								<button class="feedback-form-reset button" type="reset">Очистить</button>
+							</form>
 						</div>
 					</section>
 				</div>
@@ -107,7 +107,7 @@
 	<footer class="page-footer">
 		<div class="footer-wrapper">
 			<a href="login.html" class="login">Войти</a>
-				<span class="copyright">&copy 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</span>
+				<span class="copyright">&copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</span>
 		</div>
 	</footer>
 	<script src="bower/jquery/dist/jquery.js"></script>

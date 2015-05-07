@@ -150,6 +150,7 @@
 	color: #48cbe8;
 	padding: 9px 9px;
 	position: relative;
+	overflow: hidden;
 }
 .fieldcontent::-webkit-input-placeholder{color:#48cbe8;}
 .fieldcontent::-moz-placeholder         {color:#48cbe8;}
@@ -181,10 +182,16 @@
 	border-bottom: 2px solid #3ba8c0;
 	float: left;
 }
+.feedback-form-submit:hover{
+	border-bottom: 2px solid #48cbe8;
+}
 .feedback-form-reset{
 	background: #849db5;
 	border-bottom: 2px solid #7b92a8;
 	float: right;
+}
+.feedback-form-reset:hover{
+	border-bottom: 2px solid #849db5;
 }
 .clearfix:after{
 	visibility: hidden;
